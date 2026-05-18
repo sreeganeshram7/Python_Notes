@@ -1,0 +1,70 @@
+DATA WRANGLING AND MATPLOTLIB VISUALISATION TEST
+COMPANY CHURN DATA ANALYSIS
+================================================================================
+TIME LIMIT: 1 HOUR 45 MINUTES (105 minutes)
+Total Questions: 20
+================================================================================
+
+INSTRUCTIONS:
+--------------------------------------------------------------------------------
+1. Use the churn_data.csv file for all questions
+2. Write clean, well-commented code for practical questions
+3. Save all generated plots with clear titles and labels
+4. Handle missing values appropriately
+5. Provide brief explanations for your answers
+6. Total Time: 1 hour 45 minutes (~5 minutes per question)
+
+
+Q1. Load the 'churn_data.csv' file and display the first 5 rows along with basic information about the dataset.
+
+Q2. Identify all columns with missing values and calculate the percentage of missing values for each.
+
+Q3. Filter the dataset to show only customers who churned (Churn == 'Yes').
+
+Q4. Select customers with Tenure_Months less than 6 months and show only Customer_ID, Tenure_Months, Monthly_Charges, and Churn columns.
+
+Q5. Create a bar chart showing the count of customers by Contract type (Month-to-month, One year, Two year).
+
+Q6. Create a histogram showing the distribution of Monthly_Charges. Use 30 bins and add appropriate labels.
+
+Q7. Convert the 'Churn' column to numerical values (1 for 'Yes', 0 for 'No') using map() or replace().
+
+Q8. Create a pie chart showing the churn distribution (percentage of customers who churned vs. retained).
+
+Q9. Fill missing values in 'Monthly_Charges' and 'Total_Charges' with the median by Contract type, and missing 'Customer_Service_Calls' with the mean.
+
+Q10. Calculate the churn rate by Internet_Service type. Show the total customers, churned customers, and churn percentage for each service type.
+
+
+Q11. Create new features: 'High_Monthly_Charge' (Top 25% of Monthly_Charges), 'Long_Term_Customer' (Tenure > 24 months), and 'High_Service_Calls' (Customer_Service_Calls >= 5).
+
+
+Q12. Create two subsets: df_churned (Churn='Yes') and df_retained (Churn='No'). Compare their average Monthly_Charges and Tenure_Months.
+
+Q13. Create a pivot table showing average Monthly_Charges for each combination of Contract type and Internet_Service type.
+
+Q14. Create a 2x2 subplot showing: (1) Churn count by Contract, (2) Average Tenure by Churn status, (3) Monthly Charges distribution by Churn, (4) Customer Service Calls vs Churn.
+
+Q15. Extract the service provider name from Internet_Service ('Fiber optic' -> 'Fiber', 'DSL' -> 'DSL', 'No' -> 'None'). Create a 'Service_Category' column.
+
+Q16. Create a scatter plot showing Monthly_Charges vs Tenure_Months, with points colored by Churn status and sized by Customer_Service_Calls.
+
+Q17. Create a 'Risk_Score' column categorizing customers: High risk (Tenure < 12 AND Monthly_Charges > 75), Medium risk (Tenure < 24 AND Monthly_Charges > 50), Low risk (others).
+
+
+Q18. Create side-by-side box plots showing Monthly_Charges distribution by Internet_Service type for both Churned and Retained customers.
+
+
+Q19. Create dummy variables (one-hot encoding) for 'Contract', 'Internet_Service', and 'Payment_Method' columns.
+
+Q20. Create a correlation heatmap of numerical features and identify the top 5 features most correlated with Churn.
+
+
+DATASET INFORMATION:
+--------------------------------------------------------------------------------
+Columns: 14 features including
+  - Customer demographics (Customer_ID, Age_Group)
+  - Service information (Internet_Service, Contract, Online_Security, Tech_Support)
+  - Billing (Monthly_Charges, Total_Charges, Payment_Method, Paperless_Billing)
+  - Engagement (Tenure_Months, Customer_Service_Calls)
+  - Target (Churn: Yes/No)
