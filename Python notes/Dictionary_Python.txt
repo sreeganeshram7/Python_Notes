@@ -1,0 +1,56 @@
+Practice Questions
+
+Easy Questions
+
+1. Create a dictionary from two lists
+
+Write a function that takes two lists of equal length and creates a dictionary mapping elements from the first list to elements from the second list.
+
+2. Count character frequency
+
+Write a function that counts the frequency of each character in a string (case-insensitive, alphabetic characters only) and returns a dictionary sorted by frequency descending.
+
+3. Merge two dictionaries
+
+Write a function that merges two dictionaries. If a key exists in both, sum the values.
+
+Intermediate Questions
+
+4. Invert a dictionary
+
+Write a function that swaps keys and values: if the original dictionary is {"a": 1, "b": 2}, the result should be {1: "a", 2: "b"}. Handle the case where values might not be unique.
+
+5. Nested dictionary operations
+
+Given a dictionary of students with nested marks dictionary: {"Alice": {"Math": 85, "Science": 92}, "Bob": {"Math": 78, "Science": 88}}, compute the average score for each student and return a new dictionary.
+
+6. Deep update nested dictionaries
+
+Write a function that recursively updates a nested dictionary. If both base and update have a dictionary value for the same key, merge them recursively.
+
+7. Filter dictionary by criteria
+
+Write a function that removes all key-value pairs from a dictionary where the value is None, an empty string, or an empty list. Return a new dictionary.
+
+Hard Questions
+
+8. Convert list of dictionaries to dictionary of lists
+
+Convert [{"name": "Alice", "age": 30}, {"name": "Bob", "age": 25}] to {"name": ["Alice", "Bob"], "age": [30, 25]}.
+
+9. Build reverse index
+
+Given a dictionary where values are lists of items, create a reverse dictionary mapping each item to a list of keys that contained it:
+
+Input: {"a": [1, 2], "b": [2, 3], "c": [1, 3]}
+Output: {1: ["a", "c"], 2: ["a", "b"], 3: ["b", "c"]}
+
+10. Dictionary with tuple keys and coordinate operations
+
+Create a dictionary mapping coordinate tuples (x, y) to values. Given a list of coordinates and weights, compute:
+
+· The point with maximum weight
+
+· Group points by quadrant (I, II, III, IV, or "axis")
+
+· Count points and total weight in each quadrant
