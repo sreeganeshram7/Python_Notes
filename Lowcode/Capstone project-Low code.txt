@@ -1,0 +1,64 @@
+PROJECT – FINAL DAY
+Asset & Facility Issue Management System
+Problem Statement
+In a corporate office, employees face multiple facility and IT-related issues such as:
+•	Laptop not working
+•	Internet issues
+•	AC or projector problems
+•	Furniture damage
+Currently, these issues are reported informally, leading to delays and lack of tracking.
+Your task is to design and build a Power Platform application that allows:
+•	Employees to raise issues
+•	Facility team to track and resolve them
+•	Management to monitor issue status
+________________________________________
+Requirements
+🔹 Data Layer CAPSTONE
+•	Use Dataverse
+•	Create required tables with relationships
+•	Use correct column types
+________________________________________
+🔹 Application Layer
+•	One Canvas App for employees
+•	One Model-Driven App for admins
+________________________________________
+🔹 Functional Requirements
+•	Employees can:
+o	Create issues
+o	View their own issues
+o	Update issues before closure
+•	Admin can:
+o	View all issues
+o	Assign technicians
+o	Change issue status
+________________________________________   660 168 386 40
+🔹 Business Logic
+•	Use Business Rules
+•	Implement Business Process Flow
+•	Enforce security roles
+________________________________________
+🔹 Automation
+•	Create one simple Power Automate flow
+•	Triggered when a new issue is created
+________________________________________
+Final Submission
+Each team/student must submit:
+1.	Working Canvas App
+2.	Working Model-Driven App
+3.	Dataverse tables with relationships
+4.	BPF
+5.	Business Rules
+6.	One Power Automate flow
+7.	5-minute explanation
+________________________________________
+Restrictions
+•	No complex Power Automate
+•	No custom code
+•	No external connectors
+________________________________________
+Evaluation Criteria
+•	Correct data modelling
+•	Working CRUD operations
+•	Business logic implementation
+•	Security handling
+•	App usability

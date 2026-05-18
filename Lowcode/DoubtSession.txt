@@ -1,0 +1,28 @@
+1.fill the form(app.received) information,app.fees,{forming} application
+2.verification {screening}
+3.{counselling}
+4.university registration
+5.admission to college
+
+security rules is used to the required field for the user
+1.create
+2.update
+3.read
+4.delete
+
+
+1.start the app with dataverse
+2.forms
+3.bpf
+4.business rules
+5.security rules
+
+
+
+how to create the process for bank
+stages:
+opening account
+apply loan
+investment
+transactions
+we need to give the steps for each stages

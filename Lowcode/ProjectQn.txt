@@ -1,0 +1,11 @@
+9. Stay-Well: Employee Wellness Portal
+Company: A corporate office tracks gym and yoga session reimbursements.
+Requirements:
+•	Employees claim benefits for Gym Membership or Personal Training.
+•	The Rules:
+1.	Gym Membership claims are capped at ₹2,000 per month.
+2.	An employee can only claim a Personal Training session if they have completed at least 10 regular gym check-ins in the same month.
+•	The Process: Claims move from Submitted to HR Verification to Paid.\\\
+
+
+server side code client size contain 

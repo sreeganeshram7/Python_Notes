@@ -1,0 +1,17 @@
+What is Power Apps: Power Apps is a Microsoft platform that allows you to create custom business applications without needing to code, using a simple visual interface.
+Why we need it: We need Power Apps to empower non-technical users to create solutions quickly, reduce reliance on IT, and respond to business needs faster.
+How do you use it: You start by selecting a template or a blank canvas, then you add elements like forms or buttons, and finally connect it to data sources.
+Applications:
+Custom business apps tailored to unique needs.
+Automating workflows and routine tasks.
+Streamlining data entry and approvals.
+Integrating with Microsoft tools like Teams.
+Rapid app adjustments for changing needs.
+Features:
+Drag-and-drop app design.
+Easy data integration.
+Pre-built templates.
+Microsoft 365 connectivity.
+Simple app publishing.
+
+

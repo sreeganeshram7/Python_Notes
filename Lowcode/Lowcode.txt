@@ -1,0 +1,101 @@
+student:id,name,dob,address,gender,mail,no,age
+course:name,duration,fees,co_name
+college:name,location,email,no,capacity
+application:id,s_id,c_name,status,date,type
+enrollement:id,s_id,c_name,year,date
+
+layers of modal driven apps
+Dataverse,business process,ui
+types of formus
+card:how user will see the form
+main:it is create,edit,delete
+quick view:it is read only
+
+Application-->Approval-->Verification-->Access-->project Assignment-->new joine approval
+1.applicant
+2.application
+3.Submitting
+
+tables-entity,columns-field/components
+
+default tables(given by microsoft/custom table)
+default columns -
+ 1.locked columns (cannot edit)
+ 2.customizable   (can edit)
+ status/status reason/status code is provided by default it is not customizable
+ 
+ Tenant(Organization/enterprise)
+ enviroments: dev,sit,uat,pre-prod,prod ex:xcelevate
+ solutions: ex:xcelevate mall,kitchen
+ structure-apps,dataverse,flows,process,chatbot
+ 
+ 
+ make an one application with includes ui,dataverse,bpf 
+ assign the security to particular columns to change,edit,update,delete
+ limitations in dataverse 
+ 
+ flows: coming-->asking h.w--->clear doubts--->taking topics-->h.w for tommorrow-->going bye
+ triggers:i/p&scenario of applicant
+ action:requirement,data modelling,implement app,showcase in next class,review my application end
+ 
+ connections:two types of connections 1.customer 2.defined/pre defined
+ bilable or pay connections and free connections
+ cloud and desktop flows
+ 
+ triggers-when its the 1st class of month
+ actions-create message,picture from (sharepoint list),billings name(edit),sent email(outlook)
+ 
+ what is fetch xml
+ pagination
+ 
+ 
+ flow of power automate
+ 1.recurrence-schedule
+ 2.list present in a tables-list of records
+ 3.variable/current month-current month
+ 4.filter array-return the records for that month(month=current month)
+ 5.apply to each -if the day of the month is 1(day a month=1)
+ 6.sent an email(v2)-sent an email on outlook 
+ to 
+ subject 
+ body
+ 
+ 
+ scenario for unit testing:
+ sent an email for every month
+ 
+ 
+ 
+ flows:
+ 1.first we need to name,email,date,       birthdate
+                               25/01/202							   =TEXT([], "YYYY-mm
+2.excel
+3.filter array expression   
+ values	                                        isequals          values
+ formatDateTime(item()?['Birth_Date'],'MM-dd')
+ is equal to
+ formatDateTime(converttimezone(utcnow(),'UTC','Indian Standard Time','MM-dd'))
+ apply to each
+ body
+ sent an email
+ to:
+ item['Email']
+ body
+ hi,{item['Name']}
+						   
+							   
+canvas app:
+in canvas app whenever you are clicking a new page that page is known as canvas studio and options are known as controls
+Dataverse:It is providing you the relational database creation system in the world of power platform it is low code no code similar like sql server	databaseover here dataverse is not only	limited to just create table but on top of that it is providing you security governance	and lot of features over here.
+composite key: it is the combination of two keys toghether uniquely iddentify a record	
+form:it is used to customize the form experience for the model driven application
+view: it is generally provided how to user to view the data
+dashboard-it is self explanatory.	
+business rule:if you need some sort of business rule is applied dynamically.
+              It provide you the functionality to set up some sort of rule at your entity level.
+			  
+			  power automate: it is basically called as a microsoft flow which is useful for the power automation
+			  types of cloud flows:automated cloud flow basically it is triggered by a designated event
+			  instant cloud flow which is called as manual flow as well as sometimes we need a capability when the flow or the process should be triggered only when you want it
+			  schedule flow sometimes you are having some repetitive task that you are performing on day-to-day basis
+			  

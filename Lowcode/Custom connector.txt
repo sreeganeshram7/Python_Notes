@@ -1,0 +1,18 @@
+custom connectors:
+api-application programming interface
+http-hypertext transfer protocol
+url-uniform resource locator
+rest api-representational state transfer application programming interface
+json-javascript object notation
+
+1.what is api
+2.what is api endpoint
+3.request & response
+4.rest api
+5.resource(data location)
+6.https methods
+7.status codes
+8.key value pair
+9.object
+10.array
+11.custom connectors
