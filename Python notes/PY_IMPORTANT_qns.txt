@@ -1,0 +1,548 @@
+What is Python? Is it high-level or low-level?
+
+What are the main features of Python?
+
+Why is Python called a dynamically typed language?
+
+What is an interpreted language?
+
+What are Python keywords?
+
+Can we use keywords like if or while as variable names?
+
+What are identifiers?
+
+What are the rules for naming identifiers?
+
+What is the difference between variables and literals?
+
+What are Python data types?
+
+What are mutable and immutable data types?
+
+What is the difference between type() and id()?
+
+What does the id() function return?
+
+What does the type() function return?
+
+What is indentation in Python?
+
+Why is indentation mandatory in Python?
+
+What are comments?
+
+What is the difference between comments and docstrings?
+
+What are docstrings used for?
+
+What is dynamic memory allocation in Python?
+
+2️⃣ Numbers & Operators
+
+What are the numeric data types in Python?
+
+What is an integer in Python?
+
+What is a float in Python?
+
+What is a complex number in Python?
+
+What are arithmetic operators?
+
+Explain +, -, *, /, %, //, **.
+
+What is floor division?
+
+What is modulo operator?
+
+What is the difference between / and //?
+
+What are comparison operators?
+
+Explain ==, !=, >, <, >=, <=.
+
+What are logical operators?
+
+Explain and, or, not.
+
+What are assignment operators?
+
+Explain +=, -=, *=, /=.
+
+What is the difference between == and is?
+
+What are identity operators?
+
+What are membership operators?
+
+Explain in and not in.
+
+3️⃣ Strings
+
+What is a string in Python?
+
+Are Python strings mutable or immutable?
+
+What does string immutability mean?
+
+What is string indexing?
+
+What is string slicing?
+
+What does s[1:5] do?
+
+How do you reverse a string using slicing?
+
+What are common string methods?
+
+What does .split() do?
+
+What does .partition() do?
+
+What does .strip() do?
+
+What does .lstrip() do?
+
+What does .rstrip() do?
+
+How do you convert string to uppercase or lowercase?
+
+What does .isdigit() do?
+
+What does .isalpha() do?
+
+How do you find the index of a character?
+
+What is the difference between .find() and .index()?
+
+What is string concatenation?
+
+What is string formatting?
+
+What are f-strings?
+
+4️⃣ List & Tuple
+
+What is a list?
+
+What is a tuple?
+
+What is the difference between list and tuple?
+
+Are lists mutable or immutable?
+
+Are tuples mutable or immutable?
+
+What is list indexing?
+
+What is negative indexing?
+
+What is list slicing?
+
+How do you add elements to a list?
+
+What does .append() do?
+
+What does .insert() do?
+
+What does .extend() do?
+
+How do you remove elements from a list?
+
+What does .remove() do?
+
+What does .pop() do?
+
+What does del do?
+
+How do you sort a list?
+
+What does .sort() do?
+
+What does .reverse() do?
+
+What is tuple unpacking?
+
+Can tuples contain mutable objects?
+
+5️⃣ Dictionary & Set
+Dictionary
+
+What is a dictionary?
+
+What are key-value pairs?
+
+Are dictionaries ordered?
+
+Are dictionary keys mutable or immutable?
+
+Why must dictionary keys be immutable?
+
+How do you access values in a dictionary?
+
+What is the difference between dict['key'] and dict.get('key')?
+
+How do you add elements to a dictionary?
+
+How do you remove elements from a dictionary?
+
+What does .keys() return?
+
+What does .values() return?
+
+What does .items() return?
+
+Set
+
+What is a set in Python?
+
+Do sets allow duplicate values?
+
+Are sets ordered or unordered?
+
+How do you create a set?
+
+How do you add elements to a set?
+
+How do you remove elements from a set?
+
+What is set union?
+
+What is set intersection?
+
+What is set difference?
+
+6️⃣ Control Flow (If-Else & Loops)
+
+What is a conditional statement?
+
+What is the syntax of if statement?
+
+What is if-elif-else?
+
+What is nested if?
+
+What is a loop?
+
+What is a for loop?
+
+What is a while loop?
+
+What is the difference between for loop and while loop?
+
+What is the range() function?
+
+What are the parameters of range()?
+
+What does break do?
+
+What does continue do?
+
+What does pass do?
+
+What is an infinite loop?
+
+How can infinite loops occur?
+
+How can infinite loops be prevented?
+
+What is a nested loop?
+
+Can we use an else block with a loop?
+
+7️⃣ Functions
+
+What is a function?
+
+Why are functions used?
+
+How do you define a function?
+
+What are parameters?
+
+What are arguments?
+
+What is the difference between parameters and arguments?
+
+What are default arguments?
+
+What are positional arguments?
+
+What are keyword arguments?
+
+What are variable-length arguments?
+
+What is *args?
+
+What is **kwargs?
+
+What is the return statement?
+
+What happens if a function does not have a return statement?
+
+What is recursion?
+
+What is a lambda function?
+
+What is the scope of variables?
+
+What is the difference between local and global variables?
+
+8️⃣ Built-in Functions
+
+What does len() do?
+
+What does type() do?
+
+What does id() do?
+
+What does min() do?
+
+What does max() do?
+
+What does sum() do?
+
+What does input() do?
+
+How do you convert input to integer?
+
+What does dir() do?
+
+What does enumerate() do?
+
+What does zip() do?
+
+What is Object-Oriented Programming (OOP)?
+
+Why do we use OOP?
+
+What are the main principles of OOP?
+
+What is a class?
+
+What is an object?
+
+What is the difference between a class and an object?
+
+What is an attribute?
+
+What is a method?
+
+Constructor
+
+What is a constructor?
+
+What is the __init__ method?
+
+When is the constructor executed?
+
+Can a class have multiple constructors in Python?
+
+self Keyword
+
+What is the self keyword?
+
+Why is self used in class methods?
+
+What happens if we don't use self?
+
+Variables
+
+What is an instance variable?
+
+What is a class variable?
+
+What is the difference between instance variables and class variables?
+
+Methods
+
+What is an instance method?
+
+What is a class method?
+
+What is a static method?
+
+What is the difference between instance method, class method, and static method?
+
+Encapsulation
+
+What is encapsulation?
+
+What are public, protected, and private variables?
+
+How do we implement encapsulation in Python?
+
+Inheritance
+
+What is inheritance?
+
+Why do we use inheritance?
+
+What are the types of inheritance in Python?
+
+What is single inheritance?
+
+What is multiple inheritance?
+
+What is multilevel inheritance?
+
+What is hierarchical inheritance?
+
+Polymorphism
+
+What is polymorphism?
+
+What is method overriding?
+
+What is method overloading?
+
+How does Python support polymorphism?
+
+Abstraction
+
+What is abstraction?
+
+What is an abstract class?
+
+What is an abstract method?
+
+What is the use of the abc module?
+
+Advanced OOP
+
+What is the super() function?
+
+What is Method Resolution Order (MRO)?
+
+What are magic methods?
+
+What is operator overloading?
+
+What is __str__() method?
+
+What is __repr__() method?
+
+2️⃣ Exception Handling
+Basics
+
+What is an exception?
+
+What is an error?
+
+What is the difference between an error and an exception?
+
+Why is exception handling important?
+
+try / except
+
+What is a try block?
+
+What is an except block?
+
+How do we handle exceptions in Python?
+
+Can we have multiple except blocks?
+
+Additional Blocks
+
+What is the finally block?
+
+When does the finally block execute?
+
+What is the else block in exception handling?
+
+Exception Types
+
+What are built-in exceptions in Python?
+
+Examples:
+
+ZeroDivisionError
+
+ValueError
+
+TypeError
+
+IndexError
+
+KeyError
+
+FileNotFoundError
+
+ImportError
+
+Advanced Exception Concepts
+
+What happens if an exception is not handled?
+
+What is the raise keyword?
+
+What is a custom exception?
+
+How do you create a user-defined exception?
+
+What is exception propagation?
+
+What is a nested try block?
+
+3️⃣ File Handling
+Basics
+
+What is file handling in Python?
+
+Why is file handling important?
+
+What is the open() function?
+
+What does the close() function do?
+
+File Modes
+
+What are file modes in Python?
+
+Explain r, w, a, x.
+
+What are binary modes (rb, wb)?
+
+Reading Files
+
+What does read() do?
+
+What does readline() do?
+
+What does readlines() do?
+
+What is the difference between read(), readline(), and readlines()?
+
+Writing Files
+
+How do you write data to a file?
+
+How do you append data to a file?
+
+What happens if you open a file in write mode (w)?
+
+Best Practices
+
+What is with open()?
+
+Why is with open() recommended instead of manually closing files?
+
+File Pointer
+
+What is a file pointer?
+
+What does seek() do?
+
+What does tell() do?
+
+Working with Data Files
+
+How do you read a CSV file in Python?
+
+How do you write data into a CSV file?
+
+How do you read JSON files?
+
+How do you write JSON files?

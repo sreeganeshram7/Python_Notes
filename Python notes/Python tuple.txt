@@ -1,0 +1,10 @@
+Write a function that takes a tuple of integers and returns a new tuple containing only those elements which appear exactly once, preserving the original order.
+Given a tuple t, return a new tuple where all elements are rotated right by k positions (negative k means left rotation). Do not convert t to a list.
+You are given a nested tuple like ((1, 2), (3, (4, 5)), 6, ((7,), 8)). Write a recursive function to flatten it into a single-level tuple of integers.
+Implement a function that receives a tuple of (name, score) pairs and returns a tuple of names sorted by descending score, and for equal scores by ascending name.
+Given a tuple of strings, return a tuple of strings where each string is reversed, and the resulting tuple is sorted lexicographically by the reversed strings.
+Write a function that, given a tuple of numbers, returns a tuple consisting of three elements: (min_value, max_value, is_strictly_increasing) where the last one is a boolean.
+Without using any built-in functions other than len, implement slicing for tuples: slice_tuple(t, start, stop, step=1) that behaves like t[start:stop:step].
+Given a tuple t of integers, split it into two tuples: one with prime numbers, one with non-prime numbers, keeping original order inside each.
+Implement a function that groups an input tuple into sub-tuples of size n (last group may be smaller), returning a tuple of tuples.
+Use a tuple as a composite key in a dictionary: design a function that takes a tuple of (x, y) coordinate pairs and returns a dictionary mapping each (x, y) to its Euclidean distance from origin. Focus on correctness and immutability.
