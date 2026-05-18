@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-application
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: sample-java-assignment-app
+  template:
+    metadata:
+      labels:
+        app: sample-java-assignment-app
+    spec:
+      containers:
+        - name: spring-app
+          image: sreeganeshramg/sample-java-assignment-app:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
