@@ -1,0 +1,2 @@
+Hello students!
+Welcome to Maven resources.
